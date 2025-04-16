@@ -1,0 +1,143 @@
+{
+    "version": "1.0",
+    "title": "Property Walkthrough for Optimo Loan",
+    "description": "Guided walkthrough to capture all required property photos for loan approval",
+    "locations": [
+        {
+            "id": "house-name-plate",
+            "name": "House Name Plate",
+            "icon": "home",
+            "isRequired": true,
+            "order": 1,
+            "verificationGuidelines": "Capture a clear, legible image of the house name plate or number. Ensure the address is fully visible and matches the loan application details."
+        },
+        {
+            "id": "main-entrance",
+            "name": "Main Entrance & Facade",
+            "icon": "door-open",
+            "isRequired": true,
+            "order": 2,
+            "verificationGuidelines": "Photograph the main entrance with the door clearly visible. Include part of the facade to show the general condition of the property exterior. Door should be centered in the frame."
+        },
+        {
+            "id": "living-room",
+            "name": "Living Room/Hall",
+            "icon": "couch",
+            "isRequired": true,
+            "order": 3,
+            "verificationGuidelines": "Capture the full living space including seating area, windows, and any entertainment units. Ensure good lighting and minimal personal items."
+        },
+        {
+            "id": "kitchen",
+            "name": "Kitchen",
+            "icon": "utensils",
+            "isRequired": true,
+            "order": 4,
+            "verificationGuidelines": "Show the entire kitchen with clear visibility of countertops, appliances, and sink. Make sure lighting is adequate and there's no clutter visible."
+        },
+        {
+            "id": "bedrooms",
+            "name": "Bedroom - All",
+            "icon": "bed",
+            "isRequired": true,
+            "order": 5,
+            "verificationGuidelines": "Take photos of all bedrooms in the property. Each bedroom should show the bed area, windows, and storage space. Capture from a corner angle to maximize visibility of the space."
+        },
+        {
+            "id": "rear-door",
+            "name": "Rear Door",
+            "icon": "door-closed",
+            "isRequired": false,
+            "order": 6,
+            "verificationGuidelines": "If the property has a rear exit, photograph the door from the inside showing the locking mechanism and overall condition."
+        },
+        {
+            "id": "store-room",
+            "name": "Store Room",
+            "icon": "box",
+            "isRequired": false,
+            "order": 7,
+            "verificationGuidelines": "If present, capture the storage room showing its size and condition. Try to show the entire space in a single shot if possible."
+        },
+        {
+            "id": "dining-area",
+            "name": "Dining Area",
+            "icon": "utensils",
+            "isRequired": false,
+            "order": 8,
+            "verificationGuidelines": "If separate from the living room, photograph the dining area showing the table and chairs. Capture the entire space to demonstrate its size and condition."
+        },
+        {
+            "id": "corridor",
+            "name": "Passage/Corridor Area",
+            "icon": "route",
+            "isRequired": false,
+            "order": 9,
+            "verificationGuidelines": "If applicable, capture the corridors connecting different areas of the house. Show the full length where possible to verify connectivity between spaces."
+        },
+        {
+            "id": "staircase",
+            "name": "Staircase",
+            "icon": "stairs",
+            "isRequired": false,
+            "order": 10,
+            "verificationGuidelines": "If present, photograph the staircase showing both the steps and handrail. Take the photo from the bottom looking up to capture the entire structure."
+        },
+        {
+            "id": "terrace",
+            "name": "Terrace",
+            "icon": "sun",
+            "isRequired": false,
+            "order": 11,
+            "verificationGuidelines": "If available, capture the terrace area showing its size, condition, and any protective barriers. Include views of surrounding areas if relevant."
+        },
+        {
+            "id": "balcony",
+            "name": "Balcony",
+            "icon": "mountain",
+            "isRequired": false,
+            "order": 12,
+            "verificationGuidelines": "If present, photograph any balconies showing the flooring, railings, and doors leading to them. Capture enough of the exterior view to verify location."
+        },
+        {
+            "id": "verandah",
+            "name": "Verandah/Porch",
+            "icon": "umbrella",
+            "isRequired": false,
+            "order": 13,
+            "verificationGuidelines": "If applicable, capture the verandah or porch area showing its size and condition. Include any seating or decorative elements to demonstrate usability."
+        },
+        {
+            "id": "garden",
+            "name": "Garden Area",
+            "icon": "leaf",
+            "isRequired": false,
+            "order": 14,
+            "verificationGuidelines": "If present, photograph the garden showing its size, landscaping, and maintenance condition. Capture from multiple angles if it's a large area."
+        },
+        {
+            "id": "garage",
+            "name": "Vehicle Garage/Parking",
+            "icon": "car",
+            "isRequired": false,
+            "order": 15,
+            "verificationGuidelines": "If available, photograph the garage or designated parking space. Show the full capacity and any security features such as gates or covers."
+        },
+        {
+            "id": "overhead-tank",
+            "name": "Overhead Tank",
+            "icon": "water",
+            "isRequired": true,
+            "order": 16,
+            "verificationGuidelines": "Capture clear images of the overhead water tank showing its size, condition, and installation. If possible, show the plumbing connections."
+        },
+        {
+            "id": "lift",
+            "name": "Lift",
+            "icon": "arrow-up-square",
+            "isRequired": false,
+            "order": 17,
+            "verificationGuidelines": "If the building has an elevator, photograph both the exterior doors and interior cabin. Verify it's in working condition if possible."
+        }
+    ]
+}
