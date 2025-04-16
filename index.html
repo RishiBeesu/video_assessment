@@ -183,11 +183,17 @@
                     console.error('❌ Error connecting to API server:', error);
                 });
         };
-        fetch('/api/get-key').then(res => res.json()).then(data => {
+        try{
+            fetch('/api/get-key').then(res => res.json()).then(data => {
         const OPENAI_API_KEY = data.key;
         console.log(OPENAI_API_KEY)
         // Use apiKey for your API calls here
       });
+        }
+        catch(e){
+            console.log(e)
+        }
+        
 
         let allTasks = [];
         let currentTaskIndex = -1; // No current task selected initially
