@@ -184,7 +184,7 @@
                 });
         };
         try{
-            fetch('/api/get-key').then(res => res.json()).then(data => {
+            fetch('https://video-assessment.vercel.app/api/get-key').then(res => res.json()).then(data => {
         const OPENAI_API_KEY = data.key;
         console.log(OPENAI_API_KEY)
         // Use apiKey for your API calls here
