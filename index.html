@@ -159,7 +159,7 @@
     </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', async () => {
+    document.addEventListener('DOMContentLoaded', () => {
         // ------------------------------
         // Helper & Global Variables
         // ------------------------------
@@ -183,11 +183,11 @@
                     console.error('❌ Error connecting to API server:', error);
                 });
         };
-        
-        const data = await fetch("/api/get-key")
-        data = await data.json()
-        const OPENAI_API_KEY = data.key
+        fetch('/api/get-key').then(res => res.json()).then(data => {
+        const OPENAI_API_KEY = data.key;
         console.log(OPENAI_API_KEY)
+        // Use apiKey for your API calls here
+      });
 
         let allTasks = [];
         let currentTaskIndex = -1; // No current task selected initially
